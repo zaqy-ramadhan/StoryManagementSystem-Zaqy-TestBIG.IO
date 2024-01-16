@@ -10,7 +10,7 @@ Project sistem manajemen story yang memungkinkan pengguna untuk membuat story da
 - [Features](#features)
 - [Libraries](#libraries)
 - [Project Structure](#project-structures)
-- [APK Link](#apk-link)
+- [Youtube Link](#youtube-link)
 
 ## <a name="features"></a> Features :
 - Story List
@@ -29,14 +29,29 @@ Fitur untuk Mengedit 1 chapter tertentu
 
 ## <a name="libraries"></a> Libraries :
 You may list what libraries you used in this project, example :
-- ExpressJS
-- ReactJS
-- DataTables
-- Bootstrap
--React-Quill
+- ExpressJS : Backend
+- ReactJS : Frontend
+- DataTables : Menampilkan Tabel
+- Bootstrap : Styling / css
+- Multer : Upload Image
+- React-Quill : Editor Text
 
 ## <a name="project-structures"></a> Project Structure :
 * `backend`
+* `__config`
+* `__controllers`
+* `____storyController.js`
+* `____chapterController.js`
+* `__middlewares`
+* `____upload.js`
+* `__models`
+* `____ChapterModel.js`
+* `____StoryModel.js`
+* `__Public`
+* `____images`
+* `__routes`
+* `____Route.js`
+* `__index.js`
 * `frontend`
 * `__public`
 * `____components`
@@ -53,5 +68,5 @@ You may list what libraries you used in this project, example :
 * `____index.js`
 * `__src`   
 
-## <a name="apk-link"></a> Website URL :
+## <a name="youtube-link"></a> Youtube URL :
 Attach the link of your deployed project or youtube link here
