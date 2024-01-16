@@ -13,25 +13,45 @@ Project sistem manajemen story yang memungkinkan pengguna untuk membuat story da
 - [APK Link](#apk-link)
 
 ## <a name="features"></a> Features :
-You may list what feature you created, example :
 - Story List
+Fitur untuk menampilkan list semua story yang ada di database
 - Add Story
+Fitur untuk menambahkan story baru
 - Story Detail
+Fitur untuk melihat isi detail 1 story
 - Edit Story
+Fitur untuk edit atau update data story yang sudah ada
+- Add Chapter
+Fitur untuk menambahkan chapter dari 1 story tertentu
+- Edit Chapter
+Fitur untuk Mengedit 1 chapter tertentu
 
 
 ## <a name="libraries"></a> Libraries :
 You may list what libraries you used in this project, example :
 - ExpressJS
 - ReactJS
-- etc
+- DataTables
+- Bootstrap
+-React-Quill
 
 ## <a name="project-structures"></a> Project Structure :
-* `assets`
-* `components`
-* `utils`
-* `pages`
-* `services`
+* `backend`
+* `frontend`
+* `__public`
+* `____components`
+* `______AddChapter.js`
+* `______AddStory.js`
+* `______EditChapter.js`
+* `______EditStory.js`
+* `______StoryDetail.js`
+* `______StoryList.js`
+* `____App.css`
+* `____App.js`
+* `____App.test.js`
+* `____index.css`
+* `____index.js`
+* `__src`   
 
 ## <a name="apk-link"></a> Website URL :
 Attach the link of your deployed project or youtube link here
