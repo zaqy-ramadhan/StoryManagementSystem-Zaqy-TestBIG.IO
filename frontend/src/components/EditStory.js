@@ -116,7 +116,7 @@ const EditStory = () => {
   return (
     <><div className="columns mt-5">
       <div className="column is-half">
-      <h1 className="mb-4" >Story Edit</h1>
+      <h1 className="mb-4 h1" >Story Edit</h1>
         <form onSubmit={updateStory}>
           <div className="field">
             <label className="label">Title</label>

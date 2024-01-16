@@ -30,7 +30,7 @@ const AddChapter = () => {
   return (
     <div className="columns mt-5">
       <div className="column is-half">
-      <h1>Add Chapter</h1>
+      <h1 className="h1">Add Chapter</h1>
         <form onSubmit={saveChapter}>
           <div className="field">
             <label className="label">Chapter Title</label>

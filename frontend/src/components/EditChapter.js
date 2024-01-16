@@ -48,7 +48,7 @@ const UpdateChapter = () => {
   return (
     <div className="columns mt-5">
       <div className="column is-half">
-        <h1>Edit Chapter</h1>
+        <h1 className="h1">Edit Chapter</h1>
         <form onSubmit={updateChapter}>
           <div className="field">
             <label className="label">Chapter Title</label>
@@ -67,7 +67,7 @@ const UpdateChapter = () => {
             <label className="label">Chapter Content</label>
             <div className="control">
               <ReactQuill
-                required
+                readOnly
                 value={chapterContent}
                 onChange={(value) => setChapterContent(value)}
                 placeholder="Chapter Content"

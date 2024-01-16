@@ -59,10 +59,10 @@ const StoryList = () => {
 
   return (
     <div className="container mt-5">
+      <h1 class="h1" >Story List</h1>
       <div className="container">
         <div className="field" style={{marginBottom: '50px'}}>
           <div className="row">
-            <h1>Story List</h1>
             <Link to="add" className="col-md-1 button is-success" style={{marginTop:'23px', marginRight: '10px'}}>
               Add New
             </Link>
@@ -105,7 +105,6 @@ const StoryList = () => {
               <th>Category</th>
               <th>Tags</th>
               <th>Status</th>
-              <th>Images</th>
               <th>Actions</th>
             </tr>
           </thead>
@@ -119,15 +118,12 @@ const StoryList = () => {
                 <td>{story.tags.join(", ")}</td>
                 <td>{story.status}</td>
                 <td>
-                  {story.coverImage && (
-                    <img
-                      src={`http://localhost:5000/${encodeURIComponent(story.coverImage)}`}
-                      alt={story.title}
-                      style={{ width: "50px", height: "50px" }}
-                    />
-                  )}
-                </td>
-                <td>
+                <Link
+                    to={`/detail/${story._id}`}
+                    className="btn btn-warning me-1"
+                  >
+                    Detail
+                  </Link>
                   <Link
                     to={`edit/${story._id}`}
                     className="btn btn-primary me-1"
