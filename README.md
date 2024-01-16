@@ -1,5 +1,4 @@
-# StoryManagementSystem-Zaqy-TestBIG.IO
-# Project Name
+# Story Management System
 Tugas seleksi magang BIG.IO Zaqy
 
 ## <a name="introduction"></a> Introduction :
